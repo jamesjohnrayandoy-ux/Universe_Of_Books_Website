@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSE OF BOOKS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background: white;
+        color: green;
+      }
+      /* NAVIGATION */
+      nav {
+        background: lightgreen;
+        padding: 18px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      nav h1 {
+        color: white;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 8px;
+        padding: 10px 15px;
+        border-radius: 20px;
+        display: inline-block;
+        transition: 0.3s;
+      }
+      nav a:hover {
+        background: cyan;
+        color: ;
+      }
+      /* SECTIONS */
+      section {
+        min-height: 100vh;
+        padding: 80px 20px;
+        text-align: center;
+      }
+      h2 {
+        font-size: 32px;
+        margin-bottom: 25px;
+        color: #3d2b1f;
+      }
+      /* HOME */
+      #home {
+        padding-top: 120px;
+      }
+      #home h1 {
+        font-size: 50px;
+        color: lightblue;
+        margin-bottom: 20px;
+      }
+      #home p {
+        font-size: 18px;
+        max-width: 600px;
+        margin: auto;
+        line-height: 1.7;
+      }
+      .button {
+        background: turquoise;
+        color: white;
+        border: none;
+        padding: 13px 25px;
+        margin: 20px 5px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.3s;
+      }
+      .button:hover {
+        background: #c9a66b;
+        color: #333;
+      }
+      /* PRODUCTS */
+      .products-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-top: 30px;
+      }
+      .book-card {
+        background: white;
+        width: 220px;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+      .book-image {
+        width: 100%;
+        height: 280px;
+        background: #ddd;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #666;
+        margin-bottom: 15px;
+      }
+      .book-card h3 {
+        margin-bottom: 10px;
+      }
+      /* OPTIONS */
+      #options select {
+        width: 300px;
+        max-width: 90%;
+        padding: 13px;
+        font-size: 16px;
+        border-radius: 8px;
+        margin: 15px;
+      }
+      #orderMessage {
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: green;
+      }
+      /* CONTACT */
+      .contact-box {
+        background: white;
+        max-width: 500px;
+        margin: auto;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 13px;
+        margin: 10px 0;
+        border: 1px solid darkgreen;
+        border-radius: 8px;
+        font-size: 16px;
+      }
+      textarea {
+        height: 150px;
+        resize: vertical;
+      }
+      #contactMessage {
+        margin-top: 15px;
+        font-weight: bold;
+        line-height: 1.5;
+      }
+      footer {
+        background: lightblue;
+        color: gray;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav>
+      <h1>📚 UNIVERSE OF BOOKS</h1>
+      <a href="#home">HOME</a>
+      <a href="#products">OUR PRODUCTS</a>
+      <a href="#options">OPTIONS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- HOME SECTION -->
+    <section id="home">
+      <h1>WELCOME TO UNIVERSE OF BOOKS</h1>
+      <p>
+        Welcome to UNIVERSE OF BOOKS! Discover exciting stories,
+        magical adventures, fantasy worlds, and amazing books waiting
+        for you to read.
+      </p>
+      <a href="#products" class="button">
+            EXPLORE OUR PRODUCTS
+        </a>
+    </section>
+    <!-- OUR PRODUCTS SECTION -->
+    <section id="products">
+      <h2>OUR PRODUCTS</h2>
+      <p>Choose a book that you would like to discover!</p>
+      <div class="products-container">
+        <div class="book-card">
+          <div class="https://share.google/WC5519rdOKBsnpV1s">
+            BOOK COVER IMAGE
+          </div>
+          <h3>The Essential European Fairytales</h3>
+          <a href="#options" class="button">
+                    CHOOSE THIS BOOK
+                </a>
+        </div>
+        <div class="book-card">
+          <div class="https://share.google/nAzrF2dVGC3U7Ba3f">
+            BOOK COVER IMAGE
+          </div>
+          <h3>Nocturne</h3>
+          <a href="#options" class="button">
+                    CHOOSE THIS BOOK
+                </a>
+        </div>
+        <div class="book-card">
+          <div class="https://share.google/xvg8ncRy5yQmSD3w3">
+            BOOK COVER IMAGE
+          </div>
+          <h3>Shadow and Bone Trilogy</h3>
+          <a href="#options" class="button">
+                    CHOOSE THIS BOOK
+                </a>
+        </div>
+        <div class="book-card">
+          <div class="https://share.google/8jaQYjAhvzGDxzBeo">
+            BOOK COVER IMAGE
+          </div>
+          <h3>The Hunger Games Trilogy</h3>
+          <a href="#options" class="button">
+                    CHOOSE THIS BOOK
+                </a>
+        </div>
+        <div class="book-card">
+          <div class="https://share.google/8uYBztRZIHFyusDsI">
+            BOOK COVER IMAGE
+          </div>
+          <h3>Percy Jackson and the Olympians</h3>
+          <a href="#options" class="button">
+                    CHOOSE THIS BOOK
+                </a>
+        </div>
+      </div>
+    </section>
+    <!-- OPTIONS SECTION -->
+    <section id="options">
+      <h2>OPTIONS</h2>
+      <p>Select the book you would like to order:</p>
+      <select id="bookSelect">
+        <option value="">-- Choose a Book --</option>
+        <option>The Essential European Fairytales</option>
+        <option>Nocturne</option>
+        <option>Shadow and Bone Trilogy</option>
+        <option>The Hunger Games Trilogy</option>
+        <option>Percy Jackson Trilogy</option>
+      </select>
+      <br>
+      <button class="button" onclick="orderBook()">
+        ORDER NOW
+      </button>
+      <p id="orderMessage"></p>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>CONTACT US</h2>
+      <p>
+        Do you have questions or need information about upcoming books?
+        Send us a message!
+      </p>
+      <br>
+      <div class="contact-box">
+        <input type="text" id="name" placeholder="Your Name">
+        <textarea id="question" placeholder="Type your questions or concerns here..."></textarea>
+        <button class="button" onclick="sendMessage()">
+          SEND
+        </button>
+        <p id="contactMessage"></p>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        © 2026 UNIVERSE OF BOOKS
+      </p>
+<p>
+        Thank you for choosing a book to read! 📚
+      </p>
+    </footer>
+    <!-- JAVASCRIPT -->
+    <script>
+      /* ORDER BUTTON */
+      function orderBook() {
+        let book = document.getElementById("bookSelect").value;
+        let orderMessage =
+          document.getElementById("orderMessage");
+        if (book === "") {
+          orderMessage.style.color = "red";
+          orderMessage.innerHTML =
+            "Please choose a book first!";
+        } else {
+          orderMessage.style.color = "green";
+          orderMessage.innerHTML =
+            "Your order delivery is ready into your location, Thank you for choosing a book to read!";
+        }
+      }
+      /* CONTACT SEND BUTTON */
+      function sendMessage() {
+        let question =
+          document.getElementById("question").value.trim();
+        let contactMessage =
+          document.getElementById("contactMessage");
+        /* IF TEXTAREA IS EMPTY */
+        if (question === "") {
+          contactMessage.style.color = "red";
+          contactMessage.innerHTML =
+            "Please type your questions if you have any concerns without typing your message here, Try Again";
+        }
+        /* IF USER TYPED A MESSAGE */
+        else {
+          contactMessage.style.color = "green";
+          contactMessage.innerHTML =
+            "Thank you for your question and concerns! Our company will let you know about your problem in no time!";
+          /* CLEAR TEXT BOX */
+          document.getElementById("question").value = "";
+        }
+      }
+    </script>
+  </body>
+      </html>
